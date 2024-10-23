@@ -1,1 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+nav {
+    display: flex; /* Ensure nav items are in a row */
+    align-items: center;
+    /* border: 2px solid #aaa;  */
+    padding: 5px; /* Padding inside the nav */
+    border-radius: 8px; /* Slightly rounded corners for smoothness */
+    background-color: #fff; /* Background color of the nav */
+    margin-right: 210px;
+}
 
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-size: 18px; /* Adjust text size */
+    padding: 10px; /* Increase clickable area */
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+     border-radius: 5px;
+     
+}
+
+nav a:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #2575fc; /* Background color on hover */
+    border-bottom: 2px solid #2575fc; /* Add a border below on hover */
+    border-radius: 5px;
+}
+
+
+.hamburger {
+    font-size: 30px; /* Adjust size as needed */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.hero {
+    font-size: 28px;
+    background: linear-gradient(to right, #6a11cb, #2575fc,#6a11cb);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+.about, .events, .activities, .contact {
+    
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #282727;
+    padding: 20px;
+    text-align: center;
+}
+.quick-links {
+    margin: 10px 0;
+    color: #ffffff;
+}
+.quick-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
